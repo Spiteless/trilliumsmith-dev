@@ -2,38 +2,50 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Trillium Smith | Fullstack Web Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Trillium Smith | Fullstack Web Developer', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Title Section',
+  name: 'Trillium',
+  subtitle: 'Fullstack Web Developer',
+  cta: 'CTA',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'Paragraph1 Paragraph1 Paragraph1 Paragraph1 Paragraph1 Paragraph1 ',
+  paragraphTwo: 'Paragraph2 Paragraph2 Paragraph2 Paragraph2 Paragraph2 Paragraph2',
+  paragraphThree: 'Paragraph3 Paragraph3 Paragraph3 Paragraph3 Paragraph3 Paragraph3 Paragraph3 ',
+  resume:
+    'https://docs.google.com/document/d/1k5j8vrwb0Sm7Sht37BoO_EeJ0MfdSixCNhU_bHUtCd8/export?format=pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'project1_harvestHealth.jpg',
+    title: 'Harvest Health and Fitness',
+    info: 'Brochure website for Personal Trainer',
+    info2: 'Built with React, Gatsby, Material-IU.',
+    url: 'https://harvesthealth.netlify.app/',
+    liveUrlTitle: 'Website.',
+    repo: 'https://github.com/Spiteless/harvest-health', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project2_quizZap.jpg',
+    title: 'Quiz Zap',
+    info: 'API Based memory matching game.',
+    info2: 'Built with React.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    liveUrlTitle: 'Thangle',
+    repo: 'https://github.com/Spiteless/Quiz-Zapp', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,53 +54,35 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://docs.google.com/document/d/1k5j8vrwb0Sm7Sht37BoO_EeJ0MfdSixCNhU_bHUtCd8/export?format=pdf', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "Let's get in touch!",
+  btn: 'Email',
+  email: 'trillium@hatsfabulous.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: nanoid(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/trilliumsmith/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Spiteless/',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
